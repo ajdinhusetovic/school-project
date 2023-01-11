@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+header {
+    width: 95%;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav1 li {
+    list-style: none;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+}
+
+.nav2 li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.btn-div {
+    margin-left: 10px;
+}
+
+.btn-div button {
+    border: none;
+    padding: 10px;
+}
+
+.green {
+    border: none;
+    padding: 10px;
+    background-color: #a8da23;
+}
+
+.section-div {
+    height: 100vh;
+    background-image: url(/images/showcase.svg);
+    background-position: center -100px;
+}
+
+.section-div section {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -100px;
+}
+
+.content button {
+    padding: 14px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.title{
+    font-size: 5.5rem;
+}
+
+.logos {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+
+.logos img {
+    width: 200px;
+}
+
+.section2-div section p{
+    text-align: center;
+}
+
+.services-showcase {
+    background-image: url(/images/showcase.svg);
+    background-position: center -1000;
+}
+
+.services-showcase section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-showcase p {
+    text-align: center;
+}
+
+.title-div h1 {
+    font-size: 63px;
+}
+
+.title-div {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.cards {
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    border: 2px solid #a8da23;
+    height: 200px;
+    width: 400px;
+    padding: 12px;
+    justify-content: center;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.button-div button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.ready-div {
+    background-color: #a8da23;
+}
+
+.ready-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.ready-content button {
+    padding: 12px;
+    background-color: black;
+    color: #a8da23;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.logo-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo-section img {
+    width: 200px;
+}
+
+footer {
+    height: 100px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
